@@ -1,0 +1,26 @@
+{
+  "best_model": "RandomForest",
+  "segment_mae": {
+    "luxury_actual_ge_50000": {
+      "n": 408,
+      "MAE": 12764.413349279865
+    },
+    "very_old_age_ge_25": {
+      "n": 549,
+      "MAE": 6740.8007934222915
+    },
+    "high_mileage_ge_150k": {
+      "n": 2263,
+      "MAE": 2280.8287124957606
+    },
+    "other": {
+      "n": 8823,
+      "MAE": 2942.2790162770248
+    }
+  },
+  "questions": {
+    "q1": "Top three features by permutation importance: car_age, odometer, cylinders.",
+    "q2": "Among states with >=50 test listings, median-price spread was about $14,449; this is descriptive, not causal.",
+    "q3": "Highest MAE among prespecified segments: luxury_actual_ge_50000."
+  }
+}

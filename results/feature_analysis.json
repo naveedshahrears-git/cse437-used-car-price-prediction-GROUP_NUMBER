@@ -1,0 +1,30 @@
+{
+  "final_features": [
+    "car_age",
+    "odometer",
+    "mileage_per_year",
+    "manufacturer",
+    "condition",
+    "cylinders",
+    "fuel",
+    "title_status",
+    "transmission",
+    "drive",
+    "type",
+    "paint_color",
+    "state",
+    "region"
+  ],
+  "pca_explained_variance": [
+    0.5313695375478853,
+    0.39522269808425486,
+    0.07340776436785987
+  ],
+  "pca_cumulative_explained_variance": [
+    0.5313695375478853,
+    0.9265922356321401,
+    1.0
+  ],
+  "pca_kept_in_final_pipeline": false,
+  "reason": "Only three numeric engineered features exist; originals are retained for interpretation while categorical features are essential."
+}

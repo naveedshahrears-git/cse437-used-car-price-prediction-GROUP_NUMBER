@@ -1,0 +1,3 @@
+stage,rows,columns,price_median,odometer_missing_pct
+raw selected,426880,17,13950.0,1.0307346326836582
+clean,384558,19,15900.0,0.8479865195887226

@@ -1,0 +1,33 @@
+{
+  "rows": 426880,
+  "columns": 26,
+  "duplicates": 0,
+  "columns_list": [
+    "id",
+    "url",
+    "region",
+    "region_url",
+    "price",
+    "year",
+    "manufacturer",
+    "model",
+    "condition",
+    "cylinders",
+    "fuel",
+    "odometer",
+    "title_status",
+    "transmission",
+    "VIN",
+    "drive",
+    "size",
+    "type",
+    "paint_color",
+    "image_url",
+    "description",
+    "county",
+    "state",
+    "lat",
+    "long",
+    "posting_date"
+  ]
+}

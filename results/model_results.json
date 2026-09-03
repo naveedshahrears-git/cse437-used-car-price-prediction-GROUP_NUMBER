@@ -1,0 +1,58 @@
+{
+  "split": {
+    "train": 96000,
+    "validation": 12000,
+    "test": 12000
+  },
+  "primary_metric": "MAE",
+  "validation_metrics": {
+    "BaselineMedian": {
+      "MAE": 11440.466583333333,
+      "RMSE": 15651.602105066859,
+      "R2": -0.053256867459116286,
+      "MAPE_percent": 131.55864571438482
+    },
+    "Ridge": {
+      "MAE": 6291.205529825936,
+      "RMSE": 9878.345445729587,
+      "R2": 0.5804486520339764,
+      "MAPE_percent": 95.07314799922771
+    },
+    "RandomForest": {
+      "MAE": 3325.5241754075823,
+      "RMSE": 6646.263958987644,
+      "R2": 0.8100794877649128,
+      "MAPE_percent": 53.196879752615935
+    }
+  },
+  "test_metrics": {
+    "BaselineMedian": {
+      "MAE": 11272.79825,
+      "RMSE": 15211.789274517752,
+      "R2": -0.05285491556944022,
+      "MAPE_percent": 133.46831268055814
+    },
+    "Ridge": {
+      "MAE": 6213.528504529476,
+      "RMSE": 9609.489446402866,
+      "R2": 0.5798459480550834,
+      "MAPE_percent": 97.24818766510465
+    },
+    "RandomForest": {
+      "MAE": 3247.738759472859,
+      "RMSE": 6137.037022156821,
+      "R2": 0.8286337022007062,
+      "MAPE_percent": 50.38830430054112
+    }
+  },
+  "ridge_best_params": {
+    "model__alpha": 50
+  },
+  "rf_best_params": {
+    "model__n_estimators": 80,
+    "model__min_samples_split": 5,
+    "model__min_samples_leaf": 1,
+    "model__max_features": 0.5,
+    "model__max_depth": 30
+  }
+}

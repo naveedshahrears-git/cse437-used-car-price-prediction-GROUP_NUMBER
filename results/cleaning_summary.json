@@ -1,0 +1,11 @@
+{
+  "rows_raw": 426880,
+  "columns_selected": 17,
+  "duplicate_rows_removed": 39,
+  "invalid_price_rows_removed": 42283,
+  "invalid_year_values_set_missing": 0,
+  "invalid_odometer_values_set_missing": 1148,
+  "rows_clean": 384558,
+  "rows_removed_total": 42322,
+  "columns_clean": 19
+}
